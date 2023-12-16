@@ -1,6 +1,6 @@
 const fs = require("fs");
 const productosJSON = JSON.parse(
-  fs.readFileSync("../data/producto.json", "utf-8")
+  fs.readFileSync("./data/producto.json", "utf-8")
 );
 let cart = [];
 const shopControllers = {

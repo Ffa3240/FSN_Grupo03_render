@@ -1,5 +1,5 @@
 const fs = require ("fs")
-const productosJSON = JSON.parse(fs.readFileSync("../data/producto.json","utf-8"))
+const productosJSON = JSON.parse(fs.readFileSync("./data/producto.json","utf-8"))
 
 const adminControllers = {
     admin: (req, res) => res.render("admin/admin",{productos:productosJSON,title:'Admin | FunkoShop'}),

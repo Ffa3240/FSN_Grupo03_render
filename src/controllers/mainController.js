@@ -1,6 +1,6 @@
 const fs = require ("fs")
-const licencesJSON = JSON.parse(fs.readFileSync("../data/licence.json","utf-8"))
-const productosJSON = JSON.parse(fs.readFileSync("../data/producto.json","utf-8"))
+const licencesJSON = JSON.parse(fs.readFileSync("./data/licence.json","utf-8"))
+const productosJSON = JSON.parse(fs.readFileSync("./data/producto.json","utf-8"))
 
 const mainControllers = {
     home: (req, res) => {
